@@ -24,3 +24,9 @@ npm run dev
 ```bash
 npm run deploy
 ```
+
+### Upgrade npm package
+
+```bash
+npx npm-check-updates -u
+```

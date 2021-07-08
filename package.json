@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "standard --fix",
     "dev": "nodemon index.js",
     "deploy": "node index.js"
   },
@@ -12,17 +11,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
-    "bree": "^1.1.20",
+    "bree": "^6.2.0",
     "crypto": "^1.0.1",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.26",
-    "ping": "^0.2.3"
+    "mongoose": "^5.13.2",
+    "ping": "^0.4.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4",
-    "standard": "^14.3.4"
+    "eslint": "^7.30.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "nodemon": "^2.0.10"
   }
 }
