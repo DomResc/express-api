@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --ext .js, ./",
     "dev": "nodemon index.js",
     "deploy": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Domenico Rescigno <domenico.rescigno@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
